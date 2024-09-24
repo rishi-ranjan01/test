@@ -1,0 +1,1 @@
+select * from pc_hevodata_db.public.raw_payments where payment_method not in ('credit_card','coupon','bank_transfer','gift_card')
