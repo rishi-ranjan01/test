@@ -3,8 +3,10 @@ Welcome to your new dbt project!
 ### Using the starter project
 
 Try running the following commands:
-- dbt run
-- dbt test
+- dbt run -s hevo_materialized_model.sql
+- dbt test -s customer_id_null.sql
+- dbt test -s payment_method.sql
+- dbt test -s test_negative_amount.sql
 
 
 ### Resources:
